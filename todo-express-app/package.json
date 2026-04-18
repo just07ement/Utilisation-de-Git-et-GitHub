@@ -1,0 +1,22 @@
+{
+  "name": "todo-express-app",
+  "version": "1.0.0",
+  "description": "API Node.js/Express pour gérer une liste de tâches avec CRUD complet",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "todo",
+    "crud"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
